@@ -7,24 +7,33 @@ This script cleans up old Docker image tags in a Docker registry. It removes all
 
 1. Clone the repository and navigate to the project directory:
 
+   ```bash
    git clone https://github.com/example/docker-registry-cleanup.git
    cd docker-registry-cleanup
+   ```
 
 2. Install the required dependencies:
 
+   ```bash
    # Install doctl CLI (https://github.com/digitalocean/doctl)
    brew install doctl
    
    # Configure doctl with your DigitalOcean API token
    doctl auth init
+   ```
 
 3. Modify the script to define the repositories to clean up:
 
+   ```bash
    # Define the repositories to clean up
-   REPOSITORIES=(prod-api dev-api)
+   REPOSITORIES=(prod-orientar-api dev-orientar-api)
+   ```
 
-4. Run the script: bash cleanup.sh
+4. Run the script:
 
+   ```bash
+   bash cleanup.sh
+   ```
 
    The script will prompt you to confirm before deleting each tag. If you want to skip the prompt, you can add the `--force` flag to the `doctl registry repository delete-tag` command in the script.
 
