@@ -26,7 +26,7 @@ This script cleans up old Docker image tags in a Docker registry. It removes all
 
    ```bash
    # Define the repositories to clean up
-   REPOSITORIES=(prod-orientar-api dev-orientar-api)
+   REPOSITORIES=(prod-api dev-api)
    ```
 
 4. Run the script:
