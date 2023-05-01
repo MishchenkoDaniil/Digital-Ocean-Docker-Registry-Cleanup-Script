@@ -42,4 +42,3 @@ This script cleans up old Docker image tags in a Docker registry. It removes all
 ## License
 
 This script is licensed under the [MIT License](LICENSE).
-```
