@@ -23,8 +23,7 @@ This script cleans up old Docker image tags in a Docker registry. It removes all
    # Define the repositories to clean up
    REPOSITORIES=(prod-api dev-api)
 
-4. Run the script:
-   bash cleanup.sh
+4. Run the script: bash cleanup.sh
 
 
    The script will prompt you to confirm before deleting each tag. If you want to skip the prompt, you can add the `--force` flag to the `doctl registry repository delete-tag` command in the script.
