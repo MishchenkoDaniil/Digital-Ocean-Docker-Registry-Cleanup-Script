@@ -20,14 +20,12 @@ This script cleans up old Docker image tags in a Docker registry. It removes all
 
 3. Modify the script to define the repositories to clean up:
 
-   ```bash
    # Define the repositories to clean up
    REPOSITORIES=(prod-api dev-api)
-   ```
 
 4. Run the script:
 
-   ```bash
+   ```
    bash cleanup.sh
    ```
 
