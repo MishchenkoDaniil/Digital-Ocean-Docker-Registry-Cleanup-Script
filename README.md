@@ -7,10 +7,8 @@ This script cleans up old Docker image tags in a Docker registry. It removes all
 
 1. Clone the repository and navigate to the project directory:
 
-   ```bash
    git clone https://github.com/example/docker-registry-cleanup.git
    cd docker-registry-cleanup
-   ```
 
 2. Install the required dependencies:
 
