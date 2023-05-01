@@ -12,13 +12,11 @@ This script cleans up old Docker image tags in a Docker registry. It removes all
 
 2. Install the required dependencies:
 
-   ```bash
    # Install doctl CLI (https://github.com/digitalocean/doctl)
    brew install doctl
    
    # Configure doctl with your DigitalOcean API token
    doctl auth init
-   ```
 
 3. Modify the script to define the repositories to clean up:
 
